@@ -1,18 +1,29 @@
 import React from "react";
 
-import pic from "../../public/photo.avif";
+import pic from "../../public/Raj.jpg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 
 import { SiMongodb } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa6";
 
 import { ReactTyped } from "react-typed";
+import { FaJava } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
+import { FaHtml5 } from "react-icons/fa";
+import { FaCss3Alt } from "react-icons/fa";
+import { FaPython } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io";
+import { GrOracle } from "react-icons/gr";
+
+
+
+
+
+
 
 function Home() {
   return (
@@ -25,7 +36,7 @@ function Home() {
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
             <span className="text-xl">Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
-              <h1>Hello, I'm a</h1>
+              <h1>Hello, I'm A </h1>
               {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
@@ -37,11 +48,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+              A Full-Stack Developer handles both front-end and back-end development, ensuring seamless integration and functionality of web applications. When crafting your resume, highlight your experience with specific programming languages, notable projects you've completed, and any relevant certifications.
             </p>
             <br />
             {/* social media icons */}
@@ -55,29 +62,32 @@ function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/nagrajchitme" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
+                    <a href="https://www.instagram.com/rajvchitme" target="_blank">
+                      <FaInstagram className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
-                    </a>
                   </li>
                 </ul>
               </div>
               <div className=" space-y-2">
                 <h1 className="font-bold text-center">Currently working on</h1>
                 <div className="flex space-x-5">
-                  <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiExpress className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <FaHtml5 className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <FaCss3Alt className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <IoLogoJavascript className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaNodeJs className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <FaJava className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <FaPython className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiMysql className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <GrOracle className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                 </div>
               </div>
             </div>
@@ -85,7 +95,7 @@ function Home() {
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
             <img
               src={pic}
-              className="rounded-full md:w-[450px] md:h-[450px]"
+              className="rounded-full md:w-[450px] md:h-[600px]"
               alt=""
             />
           </div>
