@@ -2,16 +2,18 @@ import React from "react";
 import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
+import python from "../../public/python.webp";
 import javascript from "../../public/javascript.png";
 import oracle from "../../public/oracle.png";
-import spring from "../../public/spring.png";
 import springBoot from "../../public/springBoot.jpg";
+import MYSQL from "../../public/mysql.png";
+import mongoDB from "../../public/mongodb.jpg";
 function Experiance() {
   const cardItem = [
     {
       id: 1,
       logo: html,
-      name: "MongoDB",
+      name: "HTML",
     },
     {
       id: 2,
@@ -20,28 +22,38 @@ function Experiance() {
     },
     {
       id: 3,
-      logo: java,
-      name: "Java",
-    },
-    {
-      id: 4,
       logo: javascript,
       name: "JavaScript",
     },
     {
+      id: 4,
+      logo: java,
+      name: "Java",
+    },
+    {
       id: 5,
+      logo: python,
+      name: "Python",
+    },
+    {
+      id: 6,
+      logo: springBoot,
+      name: "Spring Boot",
+    },
+    {
+      id: 7,
       logo: oracle,
       name: "Oracle",
     },
     {
-      id: 6,
-      logo: spring,
-      name: "Spring",
+      id: 8,
+      logo: MYSQL,
+      name: "MYSQL",
     },
     {
-      id: 7,
-      logo: springBoot,
-      name: "Spring Boot",
+      id: 9,
+      logo: mongoDB,
+      name: "mongoDB",
     },
   ];
   return (
@@ -52,7 +64,7 @@ function Experiance() {
       <div>
         <h1 className="text-3xl font-bold mb-5">Experiance</h1>
         <p className="  ">
-          I've more than 2 years of experiance in below technologies.
+          Accademic year Experiance
         </p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
