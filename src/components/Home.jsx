@@ -4,20 +4,9 @@ import pic from "../../public/Raj.jpg";
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-
-import { SiMongodb } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { FaNodeJs } from "react-icons/fa6";
-
 import { ReactTyped } from "react-typed";
-import { FaJava } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { FaPython } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { GrOracle } from "react-icons/gr";
 
 
 
@@ -72,9 +61,11 @@ function Home() {
                     </a>
                   </li>
                   <li>
+                  <a href="https://www.Telegram.com/nagrajchitme" target="_blank">
+                      <FaTelegram className="text-2xl cursor-pointer" />
+                    </a>
                   </li>
                 </ul>
-              </div>
               </div>
             </div>
           </div>
