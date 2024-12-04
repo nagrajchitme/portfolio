@@ -127,6 +127,7 @@ function About() {
         <span>
           <li>Introduction to Artificial Intelligence on October 14, 2024</li>
           <li>For successful completion of internship on “Machine Learning” with Grade “A” from 27/10/2023 to 09/12/2023</li>
+          <li>Java certification test -YouTube course on 03 Dec 2024</li>
         </span>
         <br />
         <br />
