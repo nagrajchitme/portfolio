@@ -8,7 +8,7 @@ import oracle from "../../public/oracle.png";
 import springBoot from "../../public/springBoot.jpg";
 import MYSQL from "../../public/mysql.png";
 import mongoDB from "../../public/mongodb.jpg";
-import reactjs from "../../public/reactjs.jpg";
+
 function Experiance() {
   const cardItem = [
     {
@@ -28,36 +28,31 @@ function Experiance() {
     },
     {
       id: 4,
-      logo: reactjs,
-      name: "reactjs",
-    },
-    {
-      id: 5,
       logo: java,
       name: "Java",
     },
     {
-      id: 6,
+      id: 5,
       logo: python,
       name: "Python",
     },
     {
-      id: 7,
+      id: 6,
       logo: springBoot,
       name: "Spring Boot",
     },
     {
-      id: 8,
+      id: 7,
       logo: oracle,
       name: "Oracle",
     },
     {
-      id: 9,
+      id: 8,
       logo: MYSQL,
       name: "MYSQL",
     },
     {
-      id: 10,
+      id: 9,
       logo: mongoDB,
       name: "mongoDB",
     },
