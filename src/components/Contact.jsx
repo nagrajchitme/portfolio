@@ -36,7 +36,7 @@ function Contact() {
         <div className=" flex flex-col items-center justify-center mt-5">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            action="https://getform.io/f/aqooqvra"
+            action="eb3e3e02-f81f-4460-bfd2-39dcdb5929e7"
             method="POST"
             className="bg-slate-200 w-96 px-8 py-6 rounded-xl"
           >
