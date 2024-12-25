@@ -19,10 +19,10 @@ function About() {
         </h1>
         <span>
           
-          - Secondary School Leaving Certificate (SSLC), KSSEEB (2015) - 70.00%<br/>
-          - Pre-University Certificate (PUC), Department of Pre-University Education (2018) - 55.00%<br/>
-          - Bachelor of Science ((Life Science)), Gulbarga University, Kalaburagi (2022) - 60.00%<br/>
-          - Master of Computer Applications (MCA), Visvesvaraya Technological University, Regional Campus, Kalaburagi (2024) - 83.00%
+           Secondary School Leaving Certificate (10th), KSSEEB (2015) - 70.00%<br/>
+           Pre-University Certificate (12th), Department of Pre-University Education (2018) - 55.00%<br/>
+           Bachelor of Science (Life Science), Gulbarga University, Kalaburagi (2022) - 60.00%<br/>
+           Master of Computer Applications (MCA), Visvesvaraya Technological University, Regional Campus, Kalaburagi (2024) - 83.00%
         </span>
         <br />
         <br />
@@ -65,8 +65,7 @@ function About() {
 
 <ul><u>Database Management</u></ul>
 <li>MongoDB</li>
-<li>MySQL</li>
-<li>Oracle</li> 
+<li>MySQL</li> 
         </span>
         <br />
         <br />
