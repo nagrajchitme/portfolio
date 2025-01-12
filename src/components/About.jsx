@@ -31,7 +31,7 @@ function About() {
         </h1>
         <span>
 
-          <h3 className="text-green-800 font-semibold text-xl">
+          <h3 className="text-green-800 font-semibold text-xxl">
           Basic Computer Skills
         </h3>
 
