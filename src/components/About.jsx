@@ -31,9 +31,9 @@ function About() {
         </h1>
         <span>
 
-          <h4 className="text-green-800 font-semibold text-xl">
+          <h3 className="text-green-800 font-semibold text-xl">
           Basic Computer Skills
-        </h4>
+        </h3>
 
 
 
@@ -41,9 +41,9 @@ function About() {
 <li>PowerPoint</li> 
 <li>Excel</li>
 
-<h4 className="text-green-800 font-semibold text-xl">
+<h3 className="text-green-800 font-semibold text-xl">
           Technical Skills
-        </h4>
+        </h3>
 
 
 <ul><u>Front-end Development</u></ul>
@@ -51,15 +51,16 @@ function About() {
 <li>CSS</li>
 <li>JavaScript</li>
 <li>React.js</li>
-<li>Node.js</li>
 
 <ul><u>Back-end Development</u></ul>
-<li>Java (Advanced)</li>
+<li>Java </li>
 <li>Python</li>
 <li>.NET Framework</li>
+<li>Node.js</li>
 <li>Cloud</li>
 <li>Spring Boot</li>
-<li>Hibernate</li>
+<li>Java Swing</li>
+<li>Java servelent</li>
 <li>JDBC</li>
 <li>GIT-GITHUB</li>         
 
@@ -87,36 +88,6 @@ function About() {
           - Participate in visual merchandising, inventory management, and other sales floor activities as required.
           - Stay informed about company policies, procedures, and promotions, and communicate this information to customers and colleagues.
           </ul>
-
-
-          {/* <li>WHAT’S APP CHAT ANALYSIS (PYTHON)<br/>
-          The WhatsApp chat Analysis project provides a comprehensive platform where users can upload and analyze their
-          WhatsApp conversation be it individual or group chats</li>
-          <br/>
-          <li>DATA INTEGRITY AUDIT SCHEME BASED ON QUAD MERKLE AND TREE (JAVA)<br/>
-          User can store their data safe and securely without having fear of lost and corrupt the datastores in blocks</li>
-          <br/>
-          <li>PORTFOLIO<br/>
-          Using HTML CSS and java Script node.js and React.js made attractive portfolio</li>
-          <br/>
-          <li>Simple Website<br/>
-          Using HTML CSS and java Script with dynamic and attract Butten using hover and dynamic login page</li>
-          <br/>
-          <li>BANKING PROJECT (JAVA)<br/>
-          User can create their account save the money withdraw amount and check Balance. here user safe and securely keep
-          their private information</li>
-          <br/>
-          <li>SMART RAILWAY GATE (IOT)<br/>
-          Using Raspberry Pi Sencers male female wire and model we made smart railway Gate if train coming then it will close
-          the gate and won’t allow to move forward </li>
-          <br/>
-          <li>RETAILER SHOP WEBSITE (JAVA)<br/>
-          Here customer can resister them self and order the products and pay the amount for home delivery cart items</li>
-          <br/>
-          <li>CLONE MUSIC APPLICATION<br/>
-          Using HTML CSS and java Script here user add songs play stop change song forward and backward the musi</li> */}
-
-
         </span>
         <br />
         <br />
