@@ -54,19 +54,20 @@ function About() {
 
 <ul><u>Back-end Development</u></ul>
 <li>Java </li>
-<li>Python</li>
-<li>.NET Framework</li>
 <li>Node.js</li>
-<li>Cloud</li>
 <li>Spring Boot</li>
 <li>Java Swing</li>
 <li>Java servelent</li>
 <li>JDBC</li>
-<li>GIT-GITHUB</li>         
+         
 
 <ul><u>Database Management</u></ul>
 <li>MongoDB</li>
 <li>MySQL</li> 
+
+ <ul><u>Tools</u></ul>
+ <li>GIT-GITHUB</li>
+          
         </span>
         <br />
         <br />
