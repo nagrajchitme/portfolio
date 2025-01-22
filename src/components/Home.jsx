@@ -1,19 +1,11 @@
 import React from "react";
 
 import pic from "../../public/Raj.jpg";
-
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { FaTelegram } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
 import { ReactTyped } from "react-typed";
-
-
-
-
-
-
-
+import { FaJava } from "react-icons/fa";
+import { SiSpringboot } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
+import { FaReact } from "react-icons/fa";
 function Home() {
   return (
     <>
@@ -44,28 +36,12 @@ function Home() {
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
               <div className="  space-y-2">
                 <h1 className="font-bold text-center ">Available on</h1>
-                <ul className="flex space-x-5">
-                  <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/in/nagrajchitme" target="_blank">
-                      <FaLinkedin className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/rajvchitme" target="_blank">
-                      <FaInstagram className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                  <a href="https://www.Telegram.com/nagrajchitme" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                </ul>
+               <div className="flex space-x-5">
+                  <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <FaJava className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiSpringboot className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                  <SiMysql className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
+                </div>
               </div>
             </div>
           </div>
