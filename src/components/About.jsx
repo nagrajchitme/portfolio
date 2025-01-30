@@ -57,11 +57,12 @@ function About() {
             <u>Back-end Development</u>
           </ul>
           <li>Java </li>
-          <li>Node.js</li>
           <li>Spring Boot</li>
           <li>Java Swing</li>
           <li>Java servelent</li>
           <li>JDBC</li>
+          <li>Python</li>
+          <li>Node.js</li>
 
           <ul>
             <u>Database Management</u>
