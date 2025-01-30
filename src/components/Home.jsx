@@ -1,5 +1,3 @@
-import React from "react";
-
 import pic from "../../public/Raj.jpg";
 import { ReactTyped } from "react-typed";
 import { FaJava } from "react-icons/fa";
@@ -15,7 +13,7 @@ function Home() {
       >
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1">
-            <span className="text-xl">Welcome In My Feed</span>
+            <span className="text-xl">Welcome In My Page</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello, I'm A </h1>
               {/* <span >Developer</span> */}
@@ -29,14 +27,19 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              A Full-Stack Developer handles both front-end and back-end development, ensuring seamless integration and functionality of web applications. When crafting your resume, highlight your experience with specific programming languages, notable projects you've completed, and any relevant certifications.
+              As a Full Stack Developer with academic experience, I have
+              developed a solid understanding of both frontend and backend
+              technologies. Through various academic projects, I have gained
+              hands-on experience in building dynamic and responsive web
+              applications, developing RESTful APIs, and working with both
+              relational and NoSQL databases.
             </p>
             <br />
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
               <div className="  space-y-2">
                 <h1 className="font-bold text-center ">Available on</h1>
-               <div className="flex space-x-5">
+                <div className="flex space-x-5">
                   <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaJava className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <SiSpringboot className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />

@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
@@ -6,7 +5,7 @@ import python from "../../public/python.webp";
 import javascript from "../../public/javascript.png";
 import oracle from "../../public/oracle.png";
 import springBoot from "../../public/springBoot.jpg";
-import MYSQL from "../../public/mysql.png";
+import MYSQL from "../../public/mysql.jpg";
 import mongoDB from "../../public/mongodb.jpg";
 import reactjs from "../../public/reactjs.png";
 
@@ -70,16 +69,14 @@ function Experiance() {
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">Experiance</h1>
-        <p className="  ">
-          Accademic year Experiance
-        </p>
+        <p className="  ">Accademic year Experiance</p>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
           {cardItem.map(({ id, logo, name }) => (
             <div
-              className=" flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-1 cursor-pointer hover:scale-110 duration-300"
+              className=" flex flex-col items-center justify-center border-[2px] rounded-full md:w-[150px] md:h-[150px] shadow-md p-1 cursor-pointer hover:scale-110 duration-300"
               key={id}
             >
-              <img src={logo} className="w-[150px] rounded-full" alt="" />
+              <img src={logo} className="w-[100px] rounded-full" alt="" />
               <div>
                 <div className="">{name}</div>
               </div>

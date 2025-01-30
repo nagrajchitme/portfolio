@@ -1,10 +1,8 @@
-import React from "react";
 import java from "../../public/java.png";
 import python from "../../public/python.webp";
 import mongoDB from "../../public/mongodb.jpg";
 import reactjs from "../../public/reactjs.png";
-import nodejs from "../../public/node.png";
-import MYSQL from "../../public/mysql.png";
+import mysql from "../../public/mysql.jpg";
 import springBoot from "../../public/springBoot.jpg";
 
 function PortFolio() {
@@ -55,7 +53,7 @@ function PortFolio() {
       logo: springBoot,
       name: "Spring Boot",
       project: "BANKING MANGEMENT SYSTEM",
-      source: "https://github.com/nagrajchitme/Banking-management-system.git",
+      source: "https://github.com/nagrajchitme/BankManagementSystem.git",
       video: "https://imaginative-salmiakki-2a2114.netlify.app",
     },
     {
@@ -76,10 +74,10 @@ function PortFolio() {
     },
     {
       id: 9,
-      logo: MYSQL,
+      logo: mysql,
       name: "MYSQL",
-      project: "HOSPITAL MANGEMENT SYSTEM",
-      source: "https://github.com/nagrajchitme/hospital-management-system.git",
+      project: "STUDENT MANGEMENT_MYSQL",
+      source: "https://github.com/nagrajchitme/student-management_mysql.git",
       video: ": https://melodic-stroopwafel-8565de.netlify.app",
     },
   ];
