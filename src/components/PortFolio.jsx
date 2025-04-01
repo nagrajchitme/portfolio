@@ -1,5 +1,4 @@
 import java from "../../public/java.png";
-import python from "../../public/python.webp";
 import mongoDB from "../../public/mongodb.jpg";
 import reactjs from "../../public/reactjs.png";
 import mysql from "../../public/mysql.jpg";
