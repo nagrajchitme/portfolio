@@ -36,7 +36,7 @@ function PortFolio() {
       logo: reactjs,
       name: "ReactJS",
       project: "PORTFOLIO WEBSITE",
-      source: "",
+      source: "https://github.com/nagrajchitme/portfolio.git",
       video: "https://cheerful-sable-71e1ba.netlify.app",
     },
 
@@ -58,22 +58,6 @@ function PortFolio() {
     },
     {
       id: 7,
-      logo: python,
-      name: "Python",
-      project: "WHAT’S APP CHAT ANALYSIS",
-      source: "https://github.com/nagrajchitme/whatsapp-chat-analysis.git",
-      video: "https://monumental-dolphin-8e3999.netlify.app",
-    },
-    {
-      id: 8,
-      logo: mongoDB,
-      name: "MongoDB",
-      project: "Employee MANGEMENT SYSTEM",
-      source: "https://github.com/nagrajchitme/hospital-management-system.git",
-      video: "https://cerulean-scone-de7f05.netlify.app",
-    },
-    {
-      id: 9,
       logo: mysql,
       name: "MYSQL",
       project: "STUDENT MANGEMENT_MYSQL",
