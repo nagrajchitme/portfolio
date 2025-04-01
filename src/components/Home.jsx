@@ -38,7 +38,7 @@ function Home() {
             {/* social media icons */}
             <div className="flex flex-col items-center md:flex-row justify-between space-y-6 md:space-y-0">
               <div className="  space-y-2">
-                <h1 className="font-bold text-center ">Available on</h1>
+                <h1 className="font-bold text-center ">Working on</h1>
                 <div className="flex space-x-5">
                   <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
                   <FaJava className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
