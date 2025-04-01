@@ -1,12 +1,9 @@
 import html from "../../public/html.png";
 import css from "../../public/css.jpg";
 import java from "../../public/java.png";
-import python from "../../public/python.webp";
 import javascript from "../../public/javascript.png";
-import oracle from "../../public/oracle.png";
 import springBoot from "../../public/springBoot.jpg";
 import MYSQL from "../../public/mysql.jpg";
-import mongoDB from "../../public/mongodb.jpg";
 import reactjs from "../../public/reactjs.png";
 
 function Experiance() {
@@ -38,28 +35,13 @@ function Experiance() {
     },
     {
       id: 6,
-      logo: python,
-      name: "Python",
-    },
-    {
-      id: 7,
       logo: springBoot,
       name: "Spring Boot",
     },
     {
-      id: 8,
-      logo: oracle,
-      name: "Oracle",
-    },
-    {
-      id: 9,
+      id: 7,
       logo: MYSQL,
       name: "MYSQL",
-    },
-    {
-      id: 10,
-      logo: mongoDB,
-      name: "mongoDB",
     },
   ];
   return (
