@@ -50,8 +50,8 @@ function PortFolio() {
       id: 6,
       logo: springBoot,
       name: "Spring Boot",
-      project: "BANKING MANGEMENT SYSTEM",
-      source: "https://github.com/nagrajchitme/BankManagementSystem.git",
+      project: "CurdOperations",
+      source: "https://github.com/nagrajchitme/springbootcurd.git",
       video: "https://imaginative-salmiakki-2a2114.netlify.app",
     },
     {
