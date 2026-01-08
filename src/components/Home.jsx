@@ -27,12 +27,11 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              As a Full Stack Developer with academic experience, I have
-              developed a solid understanding of both frontend and backend
-              technologies. Through various academic projects, I have gained
-              hands-on experience in building dynamic and responsive web
-              applications, developing RESTful APIs, and working with both
-              relational and NoSQL databases.
+              As a Full-Stack Mobile App Developer, I bring hands-on academic and project-based experience
+in building scalable mobile and web applications. I am proficient in frontend and backend
+development, RESTful API design, state management using Redux and Zustand,
+and working with both relational and NoSQL databases.
+
             </p>
             <br />
             {/* social media icons */}
