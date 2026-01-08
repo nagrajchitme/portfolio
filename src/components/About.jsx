@@ -1,81 +1,98 @@
 function About() {
   return (
-    <div
-      name="About"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-20"
-    >
-      <div>
-        <h1 className="text-3xl font-bold mb-5">About</h1>
-        <p>
-          Hi.. 🖐️, I'm Nagraj Chitme, Full Stack Developer . Proficient in Java,
-          Spring Boot, and MySQL, with a breadth knowledge of ReactJS and a
-          strong willingness to learn and take on new challenges.
-        </p>
+    <h1 className="text-3xl font-bold mb-5">About</h1>
+<p>
+  Hi 👋, I’m <strong>Nagraj Chitme</strong>, a <strong>Full-Stack Mobile App Developer</strong> 
+  who loves turning ideas into real-world applications. With strong expertise in 
+  <strong> Java, Spring Boot, and MySQL</strong>, and hands-on experience in 
+  <strong> React and React Native</strong>, I build scalable, efficient, and user-focused 
+  solutions. I’m always eager to learn, explore new technologies, and take on 
+  meaningful challenges.
+</p>
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
-          EDUCATION & TRAINING
+          EDUCATION
         </h1>
         <span>
-          Secondary School Leaving Certificate (10th), KSSEEB (2015) - 70.00%
+    Master of Computer Applications (MCA)
+Visvesvaraya Technological University, Karnataka — 2024
+          Bachelor of Science (Life Science)
+Gulbarga University, Karnataka — 2022
           <br />
-          Pre-University Certificate (12th), Department of Pre-University
-          Education (2018) - 55.00%
-          <br />
-          Bachelor of Science (Life Science), Gulbarga University, Kalaburagi
-          (2022) - 60.00%
-          <br />
-          Master of Computer Applications (MCA), Visvesvaraya Technological
-          University, Regional Campus, Kalaburagi (2024) - 83.00%
+Bachelor of Science (Life Science)
+Gulbarga University, Karnataka — 2022
+Visvesvaraya Technological University, Karnataka — 2024
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          SKILLS & EXPERTISE
-        </h1>
-        <span>
-          <h3 className="text-green-600 font-semibold text-xl">
-            Basic Computer Skills
-          </h3>
+        <h1 className="text-green-600 font-semibold text-xl mb-4">
+  Skills & Expertise
+</h1>
 
-          <li>Microsoft Office</li>
-          <li>PowerPoint</li>
-          <li>Excel</li>
+<div className="space-y-5 text-gray-700">
+  {/* CORE SKILLS */}
+  <div>
+    <h3 className="font-semibold text-lg text-gray-900 mb-2">
+      Full-Stack & Mobile Development
+    </h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>React Native (Expo)</li>
+      <li>React.js</li>
+      <li>JavaScript (ES6+)</li>
+      <li>HTML5 & CSS3</li>
+      <li>State Management: Redux, Zustand</li>
+    </ul>
+  </div>
 
-          <h3 className="text-green-600 font-semibold text-xl">
-            Technical Skills
-          </h3>
+  {/* BACKEND */}
+  <div>
+    <h3 className="font-semibold text-lg text-gray-900 mb-2">
+      Backend Development
+    </h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Java (J2SE, J2EE)</li>
+      <li>Spring Boot (REST APIs, MVC, Data JPA)</li>
+      <li>Hibernate & JDBC</li>
+      <li>Node.js (Basic)</li>
+    </ul>
+  </div>
 
-          <ul>
-            <u>Front-end Development</u>
-          </ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React.js</li>
+  {/* DATABASE */}
+  <div>
+    <h3 className="font-semibold text-lg text-gray-900 mb-2">
+      Databases
+    </h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>MySQL</li>
+      <li>MongoDB</li>
+      <li>Firebase (Firestore, Authentication)</li>
+    </ul>
+  </div>
 
-          <ul>
-            <u>Back-end Development</u>
-          </ul>
-          <li>Java </li>
-          <li>Spring Boot</li>
-          <li>Java Swing</li>
-          <li>Java servelent</li>
-          <li>JDBC</li>
-          <li>Python</li>
-          <li>Node.js</li>
+  {/* TOOLS */}
+  <div>
+    <h3 className="font-semibold text-lg text-gray-900 mb-2">
+      Tools & Platforms
+    </h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Git & GitHub</li>
+      <li>Visual Studio Code</li>
+      <li>Android Studio</li>
+      <li>Postman</li>
+    </ul>
+  </div>
 
-          <ul>
-            <u>Database Management</u>
-          </ul>
-          <li>MongoDB</li>
-          <li>MySQL</li>
-
-          <ul>
-            <u>Tools</u>
-          </ul>
-          <li>GIT-GITHUB</li>
-          <li>UV/UX</li>
-        </span>
+  {/* BASIC SKILLS */}
+  <div>
+    <h3 className="font-semibold text-lg text-gray-900 mb-2">
+      Additional Skills
+    </h3>
+    <ul className="list-disc list-inside space-y-1">
+      <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+      <li>UI/UX Fundamentals</li>
+    </ul>
+  </div>
+</div> 
         <br />
         <br />
         <h1 className="text-green-600 font-semibold text-xl">
@@ -118,19 +135,16 @@ function About() {
         </span>
         <br />
         <br />
-        <h1 className="text-green-600 font-semibold text-xl">
-          Mission Statement
-        </h1>
-        <p>
-          To become a leading expert in full-stack development, leveraging
-          expertise in Java, Python, and JavaScript. Design, develop, and deploy
-          scalable, efficient, and innovative software solutions that drive
-          business growth and success. Utilize expertise to analyze complex
-          problems, develop effective solutions, and collaborate with
-          cross-functional teams. Continuously update skills to stay current
-          with industry trends, delivering high-quality solutions that exceed
-          expectations and contribute to business success.
-        </p>
+        <h1 className="text-green-600 font-semibold text-xl mb-3">
+  Mission Statement
+</h1>
+<p className="text-gray-700 leading-relaxed">
+  My mission is to grow as a Full-Stack Mobile App Developer by building scalable,
+  secure, and user-focused applications. I strive to apply modern technologies,
+  strong problem-solving skills, and continuous learning to deliver impactful
+  software solutions that contribute to business growth and long-term success.
+</p>
+
       </div>
     </div>
   );
