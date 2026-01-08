@@ -16,9 +16,10 @@ function About() {
         <span>
     Master of Computer Applications (MCA)
 Visvesvaraya Technological University, Karnataka — 2024
+  <br />
           Bachelor of Science (Life Science)
 Gulbarga University, Karnataka — 2022
-          <br />
+          
 Bachelor of Science (Life Science)
 Gulbarga University, Karnataka — 2022
 Visvesvaraya Technological University, Karnataka — 2024
