@@ -45,7 +45,6 @@ and working with both relational and NoSQL databases.
         </div>
       </div>
 
-      <hr />
     </>
   );
 }
