@@ -47,7 +47,7 @@ function Footer() {
               </div>
             </div>
             <div className="mt-8 border-t border-gray-700 pt-8 flex flex-col items-center">
-              <p className="text-sm"></p>
+              
               <p className="text-sm"> ❤️ </p>
             </div>
           </div>
