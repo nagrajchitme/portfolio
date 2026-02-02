@@ -35,7 +35,7 @@ function PortFolio() {
       name: "ReactJS",
       project: "Portfolio Website",
       source: "https://github.com/nagrajchitme/portfolio.git",
-      video: "https://cheerful-sable-71e1ba.netlify.app",
+      video: "https://nagrajvchitme.netlify.app/",
     },
     {
       id: 5,
