@@ -253,22 +253,6 @@ export default function About() {
       </section>
 
       <section className="mt-10">
-        {/* FirstCry */}
-        <div className="mb-8">
-          <h3 className="text-xl font-semibold">
-            FirstCry Pvt Ltd (Pune) —{" "}
-            <span className="text-gray-700">Sales Associate</span>
-          </h3>
-          <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
-            <li>Delivered exceptional customer support and service.</li>
-            <li>
-              Promoted products, achieved sales targets, and guided customers.
-            </li>
-            <li>Maintained store organization & visual standards.</li>
-            <li>Collaborated with teammates to improve store performance.</li>
-          </ul>
-        </div>
-
         {/* Priacc Innovations */}
         <div>
           <h3 className="text-xl font-semibold">
@@ -291,6 +275,26 @@ export default function About() {
             </li>
           </ul>
         </div>
+
+        
+        {/* FirstCry */}
+        <div className="mb-8">
+          <h3 className="text-xl font-semibold">
+            FirstCry Pvt Ltd (Pune) —{" "}
+            <span className="text-gray-700">Sales Associate</span>
+          </h3>
+          <ul className="list-disc list-inside mt-2 text-gray-700 space-y-1">
+            <li>Delivered exceptional customer support and service.</li>
+            <li>
+              Promoted products, achieved sales targets, and guided customers.
+            </li>
+            <li>Maintained store organization & visual standards.</li>
+            <li>Collaborated with teammates to improve store performance.</li>
+          </ul>
+        </div>
+
+        
+        
       </section>
     </div>
   );
