@@ -254,7 +254,7 @@ export default function About() {
 
       <section className="mt-10">
         {/* Priacc Innovations */}
-        <div>
+        <div className="mb-8">
           <h3 className="text-xl font-semibold">
             Priacc Innovations Pvt Ltd (Hyderabad) —{" "}
             <span className="text-gray-700">Associate Software Developer</span>
@@ -278,7 +278,7 @@ export default function About() {
 
         
         {/* FirstCry */}
-        <div className="mb-8">
+        <div>
           <h3 className="text-xl font-semibold">
             FirstCry Pvt Ltd (Pune) —{" "}
             <span className="text-gray-700">Sales Associate</span>
