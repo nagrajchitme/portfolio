@@ -47,7 +47,7 @@ function PortFolio() {
       video: "",
     },
     {
-      id: 5,
+      id: 6,
       logo: java,
       name: "Java",
       project: "Data Integrity Audit System",
@@ -55,7 +55,7 @@ function PortFolio() {
       video: "",
     },
     {
-      id: 8,
+      id: 7,
       logo: springBoot,
       name: "Spring Boot",
       project: "Blogging Application",
@@ -63,7 +63,7 @@ function PortFolio() {
       video: "",
     },
     {
-      id: 9,
+      id: 8,
       logo: mysql,
       name: "MySQL",
       project: "Student Management System",
