@@ -2,6 +2,7 @@ import java from "../../public/java.png";
 import reactjs from "../../public/reactjs.png";
 import mysql from "../../public/mysql.jpg";
 import springBoot from "../../public/springBoot.jpg";
+import springBoot from "../../public/ReactNative.jpg";
 
 function PortFolio() {
   const cardItem = [
@@ -35,7 +36,15 @@ function PortFolio() {
       name: "ReactJS",
       project: "Portfolio Website",
       source: "https://github.com/nagrajchitme/portfolio.git",
-      video: "https://nagrajvchitme.netlify.app",
+      video: "https://nagrajchitme.netlify.app/",
+    },
+    {
+      id: 5,
+      logo: react native,
+      name: "ReactNative",
+      project: "Goyaah",
+      source: "https://goyaah.in/",
+      video: "",
     },
     {
       id: 5,
